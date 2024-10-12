@@ -6,7 +6,7 @@ import { useGlobalState } from "./context/globalProvider";
  
 
 export default function Home() {
-  const {title,tasks} = useGlobalState();
+  const {tasks} = useGlobalState();
 
   return (
      <>

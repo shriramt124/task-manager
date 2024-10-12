@@ -17,7 +17,7 @@ function TaskItem({
   title,
   description,
   isCompleted,
-  isImportant,
+  
   date,
   id
 }: Props) {

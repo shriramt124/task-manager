@@ -2,7 +2,7 @@
  
 import { useGlobalState } from "@/app/context/globalProvider"
 import {useState} from "react"
-import toast ,{Toaster} from "react-hot-toast"
+import toast   from "react-hot-toast"
 import styled from  "styled-components"
 
 

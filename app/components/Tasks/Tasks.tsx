@@ -12,7 +12,7 @@ interface Props {
   tasks: any[];
 }
 export default function Tasks({ title, tasks }: Props) {
-  const { theme,isLoading,openModal,closeModal,isModalOpen} = useGlobalState();
+  const { theme,isLoading,openModal,isModalOpen} = useGlobalState();
  
   return (
     <TaskStyled theme={theme}>
